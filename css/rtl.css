@@ -817,3 +817,14 @@ a.read-more:hover{
     margin-top: 10px;
     float: left;
 }
+.blog-pagination .page-item {
+    padding-left: 10px;
+}
+.blog-pagination .page-item.active .page-link {
+    background-color: #c2a36e;
+    border-color: #c2a36e;
+    color: #fff !important;
+}
+.blog-pagination .page-item .page-link {
+  border-color: #c2a36e;
+}
