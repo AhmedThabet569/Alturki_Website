@@ -828,3 +828,65 @@ a.read-more:hover{
 .blog-pagination .page-item .page-link {
   border-color: #c2a36e;
 }
+.small-text {
+    font-size: 11px;
+}
+.ask-services-box .nav-tabs .nav-link {
+    
+}
+.ask-services-box .nav-tabs .nav-item.last .nav-link {
+    border-left:unset;
+}
+.ask-services-box .nav-tabs .nav-link {
+     border-top-right-radius: unset !important;
+    border-top-left-radius: unset !important;
+} 
+.ask-services-box .nav-tabs .nav-link {
+    border-top-right-radius: unset !important;
+    border-top-left-radius: unset !important;
+    min-height: 65px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.team-staff .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -20px;
+    border-radius: 50px;
+    background: #fff;
+}
+.team-staff .owl-carousel .owl-nav div.owl-prev {
+    right: auto;
+    left: -20px;
+    border-radius: 50px;
+    background: #c2a36e;
+}
+.team-filed .single_expert {
+    display: flex;
+    padding: 50px 37px 50px 0px;
+    background: #2d3548;
+}
+
+.gj-datepicker-md [role="right-icon"] {
+    position: absolute;
+    left: 275px;
+    top: 0px;
+    font-size: 14px;
+    color: #919191;
+    margin-right: 15px;
+    top: 16px;
+    right: unset;
+}
+.alarm-img {
+        position: absolute;
+        top: 45px;
+        left: 303px;
+        overflow: hidden;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    width: 221px;
+    text-align: center;
+}
+.ask-for-services h2{
+    margin-bottom: 20px !important;
+}
