@@ -890,3 +890,130 @@ a.read-more:hover{
 .ask-for-services h2{
     margin-bottom: 20px !important;
 }
+
+
+/* resposive */
+
+@media(max-width:991px) and (min-width:768px){
+.logo img{
+    max-width: 400px;
+}
+.slicknav_btn{
+    position: absolute;
+    left: 0px;
+    top: -60px;
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color:#fff !important; 
+}
+.our-mession-box.row {
+    color: #fff;
+    background: #2d3548;
+    padding: 60px 0px;
+}
+}
+
+@media(max-width:767px){
+    .logo img {
+        max-width: 200px;
+    }
+
+    .slicknav_btn {
+        position: absolute;
+        left: 0px;
+        top: -40px;
+    }
+
+    .slicknav_menu .slicknav_icon-bar {
+        background-color: #fff !important;
+    }
+    .header-area .header-top_area .short_contact_list ul li {
+        display: block;
+        text-align: right;
+    }
+    .header-area .header-top_area .short_contact_list ul li a {
+        font-size: 12px;
+        
+         margin-right: 0px;
+      }
+      .header-area .header-top_area {
+          padding: 5px 0;
+          background: #2d3348;
+          height: 65px;
+      }
+      .header-top_area .col-xl-6.col-md-6
+      {
+          width: 60% !important;
+      }
+       .header-top_area .col-xl-6.col-md-6:last-child {
+           width: 40% !important;
+           float: left;
+           margin-top: 20px;
+       }
+}
+
+.menu-bar {
+    cursor: pointer;
+}
+
+.menu-bar span {
+    color: #000;
+    font-size: 24px;
+}
+
+.main-menubar {
+    position: relative;
+}
+
+nav {
+    margin-right: 70px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    transform-origin: 100% 50%;
+}
+
+@media (max-width: 767px) {
+    nav {
+        margin-right: 0;
+        position: absolute;
+        right: 0;
+        top: 47px;
+        text-align: right;
+        padding: 20px 0;
+        z-index: 5;
+        background: #fff;
+    }
+
+    nav a {
+        color: #2482ff !important;
+    }
+
+    nav a:hover {
+        color: #2482ff;
+    }
+}
+
+nav.hide {
+    transform: scale(0);
+}
+
+nav a {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 25px;
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    nav a {
+        margin: 5px 25px;
+    }
+}
+
+nav a:hover {
+    color: #2482ff;
+}
